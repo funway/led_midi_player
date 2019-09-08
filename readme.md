@@ -1,7 +1,3 @@
----
-typora-root-url: ./
----
-
 # LED MIDI Player
 
 Lighting WS2812 LED strip by parsing a midi file on Raspberry Pi.
