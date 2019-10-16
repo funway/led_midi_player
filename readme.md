@@ -4,7 +4,7 @@ Lighting WS2812 LED strip by parsing a midi file on Raspberry Pi.
 
 ## Demo
 
-[](https://www.bilibili.com/video/av68328315)
+[https://www.bilibili.com/video/av68328315](https://www.bilibili.com/video/av68328315)
 
 ## Dependency
 
