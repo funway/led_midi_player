@@ -2,12 +2,21 @@
 
 Lighting WS2812 LED strip by parsing a midi file on Raspberry Pi.
 
+## Demo
+
+[](https://www.bilibili.com/video/av68328315)
+
 ## Dependency
 
 - rpi_ws281x 
+
 - adafruit-circuitpython-neopixel
+
 - mido
+
 - python-rtmidi
+
+  python-rtmidi compiling needs libasound2-dev & libjack-jackd2-dev packages, use apt-get to install.
 
 ```python
 sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel mido python-rtmidi
@@ -37,5 +46,5 @@ sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel mido python-rtmidi
 
 ## Usage
 
-`sudo python3 play.py -f music.mid [-p audio_port]`
+`sudo python3 play.py -f music.mid [-p audio_port_name]`
 
